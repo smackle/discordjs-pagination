@@ -6,7 +6,7 @@
 </div>
 
 
-# discordjs-pagination
+# @xoalone/discordjs-pagination
 A simple utility to paginate discord embeds. Built on discord.js@^12.0.0 (master) but should work on older versions. Compatible with MessageEmbeds, RichEmbeds (not tested). Pages are embeds.
 
 NOTE: This is an edit of discord.js-pagination, there is a back to homepage feature on this edit.
