@@ -1,7 +1,7 @@
 <div align="center">
   <p>
-    <a href="https://nodei.co/npm/discordjs-pagination
-/"><img src="https://nodei.co/npm/discordjs-pagination.png?downloads=true&stars=true" alt="NPM info" /></a>
+    <a href="https://nodei.co/npm/@xoalone/discordjs-pagination
+/"><img src="https://nodei.co/npm/@xoalone/discordjs-pagination.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
 </div>
 
@@ -12,13 +12,13 @@ A simple utility to paginate discord embeds. Built on discord.js@^12.0.0 (master
 NOTE: This is an edit of discord.js-pagination, there is a back to homepage feature on this edit.
 
 # Installation
-* `npm install discordjs-pagination`
+* `npm install @xoalone/discordjs-pagination`
 
 # Usage
 __Basic Bot Example__
 ```js
 // Import the discord.js-pagination package
-const paginationEmbed = require('discordjs-pagination');
+const paginationEmbed = require('@xoalone/discordjs-pagination');
 
 // Use either MessageEmbed or RichEmbed to make pages
 // Keep in mind that Embeds should't have their footers set since the pagination method sets page info there
