@@ -33,10 +33,14 @@ pages = [
 	embedn
 ];
 
-// Call the paginationEmbed method, first two arguments are required
-// emojiList is the pageturners defaults to ['⏪', '🚪', '⏩']
-// timeout is the time till the reaction collectors are active, after this you can't change pages (in ms), defaults to 120000
-paginationEmbed(msg, pages, emojiList, timeout);
+// Call the paginationEmbed method, first two arguments are required.
+/* emojiList is the pagination controls, defaults to ['⏪', '◀️', '⏹️', '▶️', '⏩']. */
+
+/* timeout is the time until the reaction collectors are going to stop collection (in ms), after this you can't change pages, defaults to 120000 ms. */
+
+/* botReaction is a boolean and if it is set to true then bots can react to messages, defaults to false. */
+
+paginationEmbed(msg, pages, emojiList, timeout, botReaction);
 // There you go, now you have paged embeds
 ```
 # Preview
