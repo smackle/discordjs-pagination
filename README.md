@@ -45,5 +45,4 @@ paginationEmbed(msg, pages, emojiList, timeout, botReaction);
 ```
 # Preview
 ![Demo](https://raw.githubusercontent.com/XoAlone/discordjs-pagination/master/example/demo.png)
-
 Here is the package used as an example.
