@@ -7,9 +7,9 @@
 
 # @xoalone/discordjs-pagination
 
-A simple utility to paginate discord embeds. Built on discord.js@^12.0.0 (master) but should work on older versions. Compatible with MessageEmbeds, RichEmbeds (not tested). Pages are embeds.
+A simple utility to paginate Discord embeds. Built on discord.js@^12.0.0 (master) but should work on older versions. Compatible with MessageEmbeds, RichEmbeds (not tested). Pages are embeds.
 
-NOTE: This is an edit of discord.js-pagination, there is a back to homepage feature on this edit.
+NOTE: This is an edit of discord.js-pagination, I have added a lot of useful features.
 
 # Installation
 
@@ -41,7 +41,7 @@ const pages = [
 
 // pages is your array of pages.
 
-// emojiList is an array and the pagination controls, defaults to ['⏪', '◀️', '⏹️', '▶️', '⏩']. */
+// emojiList is an array and the pagination controls, defaults to ['⏪', '◀️', '⏹️', '▶️', '⏩']. Also, you can use custom emojis, just provide their IDs instead of an unicode emoji. */
 
 // timeout is an integer and the time until the reaction collectors are going to stop collection (in ms), after this you can't change pages, defaults to 120000 ms. */
 
@@ -55,6 +55,6 @@ paginationEmbed(msg, pages, emojiList, timeout, botReaction, userIDs);
 
 # Preview
 
-<img src="https://raw.githubusercontent.com/XoAlone/discordjs-pagination/master/example/demo.png" alt="DEMO" align="center" style="border-radius: 15%;" />
+<img src="https://raw.githubusercontent.com/XoAlone/discordjs-pagination/master/example/demo.png" alt="DEMO" align="center" />
 
 Here is the package used as an example.

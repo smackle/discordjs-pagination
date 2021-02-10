@@ -19,7 +19,8 @@ const paginationEmbed = async (
   for (const emoji of emojiList) await curPage.react(emoji);
   const reactionCollector = curPage.createReactionCollector(
     (reaction, user) =>
-      emojiList.includes(reaction.emoji.name) && botReaction === true
+      emojiList.includes(reaction.emoji.name || reaction.emoji.id) &&
+      botReaction === true
         ? user.bot
         : !user.bot && userIDs.includes(user.id),
     { time: timeout }
