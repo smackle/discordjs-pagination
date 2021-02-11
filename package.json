@@ -1,11 +1,18 @@
 {
   "name": "@xoalone/discordjs-pagination",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "A simple utility to paginate discord embeds. Edit of discord.js-pagination.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XoAlone/discordjs-pagination.git"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "figlet": "1.5.0"
   },
   "keywords": [
     "discord.js",

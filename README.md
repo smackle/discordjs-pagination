@@ -36,19 +36,21 @@ const pages = [
   embedn,
 ];
 
-// Call the paginationEmbed method, first two arguments are required.
-// msg is your Message class object.
+/* Call the paginationEmbed method, first two arguments are required.
+- `msg` is your Message class object (REQUIRED).
 
-// pages is your array of pages.
+- `pages` is your array of pages (REQUIRED).
 
-// emojiList is an array and the pagination controls, defaults to ['⏪', '◀️', '⏹️', '▶️', '⏩']. Also, you can use custom emojis, just provide their IDs instead of an unicode emoji. */
+- `emojiList` is an array and the pagination controls, defaults to ['⏪', '◀️', '⏹️', '▶️', '⏩']. 
+- Also, you can use custom emojis, just provide their IDs instead of an unicode emoji.
 
-// timeout is an integer and the time until the reaction collectors are going to stop collection (in ms), after this you can't change pages, defaults to 120000 ms. */
+- `timeout` is an integer and the time until the reaction collectors are going to stop collection (in ms), after this you can't change pages, defaults to 120000ms.
 
-// botReaction is a boolean and if it is set to true then bots can react to messages, defaults to false. */
+// `botReaction` is a boolean and if it is set to true then bots can react to messages, defaults to false.
 
-// userIDs is an array and it allows you to add users who can react to the message with their ID, defaults to message.author.id.
+// `userIDs` is an array and it allows you to add users who can react to the message with their ID, defaults to message.author.id.
 
+*/
 paginationEmbed(msg, pages, emojiList, timeout, botReaction, userIDs);
 // There you go, now you have paged embeds
 ```
