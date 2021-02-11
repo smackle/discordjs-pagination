@@ -19,14 +19,9 @@ console.log(
 );
 
 console.log(
-  `${chalk.underline(
-    chalk.bold(
-      chalk.blue(`Github: https://github.com/XoAlone/discordjs-pagination`)
-    )
-  )}
-  ${chalk.underline(
-    chalk.bold(
-      chalk.blue(`Support: https://github.com/XoAlone/discordjs-pagination`)
-    )
+  `${chalk.bold(
+    chalk.blue(`Github: https://github.com/XoAlone/discordjs-pagination`)
+  )}\n${chalk.bold(
+    chalk.blue(`Support: https://github.com/XoAlone/discordjs-pagination`)
   )}`
 );
