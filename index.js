@@ -20,6 +20,7 @@ const paginate = async (
     throw new Error(
       "There needs to be five emojis! Look at the example on the NPM package or Github."
     );
+  let pages = 0;
   /* Send the first embed. */
   const curPage = await msg.channel.send(
     pages[page].setFooter(`Page ${page + 1} / ${pages.length}`)
