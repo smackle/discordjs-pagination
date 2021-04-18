@@ -1,6 +1,6 @@
 {
-  "name": "@smacklex/discordjs-paginationv1",
-  "version": "2.2.3",
+  "name": "@smacklex/dp1",
+  "version": "2.2.4",
   "description": "A simple utility to paginate discord embeds. Edit of discord.js-pagination.",
   "main": "index.js",
   "repository": {
