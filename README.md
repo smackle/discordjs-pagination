@@ -1,6 +1,6 @@
 
 
-# @smacklex/discordjs-pagination
+# @smacklex/dp1
 
 A simple utility to paginate Discord embeds. Built on discord.js@^12.0.0 (master) but should work on older versions. Compatible with MessageEmbeds, RichEmbeds (not tested). Pages are embeds.
 
